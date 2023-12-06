@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey"
+    tools:context=".Gloves">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#F3C623"
+        tools:ignore="RtlHardcoded">
+
+        <TextView
+            android:id="@+id/textmenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="Запрещено"
+            android:textColor="#000"
+            android:textSize="48sp"
+            android:textStyle="bold|italic" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginRight="70dp"
+        android:background="#F3C623"
+        tools:ignore="RtlHardcoded">
+
+        <TextView
+            android:id="@+id/textmenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:text="Посещение цеха всеми, кто не прошел инструктаж."
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="70dp"
+        android:background="#F3C623"
+        tools:ignore="RtlHardcoded">
+
+        <TextView
+            android:id="@+id/textmenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="Пронос в цех любых продуктов питания и табака."
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="70dp"
+        android:background="#F3C623"
+        tools:ignore="RtlHardcoded">
+
+        <TextView
+            android:id="@+id/textmenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="Проведение в цехах любых работ, которые могут негативно повлиять на качество пищевых продуктов."
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginRight="70dp"
+        android:background="#F3C623"
+        tools:ignore="RtlHardcoded">
+
+        <TextView
+            android:id="@+id/textmenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="Несоблюдение правил личной гигиены и правил по ношению защитной одежды."
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="550dp"
+        android:layout_marginBottom="11dp"
+        android:background="#F3C623"
+        tools:ignore="RtlHardcoded">
+
+        <LinearLayout
+            android:id="@+id/niz"
+            android:layout_width="390dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/home"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/home" />
+
+            <ImageView
+                android:id="@+id/radi"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/radi" />
+
+            <ImageView
+                android:id="@+id/code"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/code" />
+
+            <ImageView
+                android:id="@+id/gloves"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gloves" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="52dp"
+            android:layout_above="@+id/niz"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="310dp"
+            android:layout_marginBottom="13dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/six"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/six" />
+
+            <ImageView
+                android:id="@+id/loopa"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/loopa" />
+
+            <ImageView
+                android:id="@+id/bucket"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bucket" />
+
+            <ImageView
+                android:id="@+id/box"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/box" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
